@@ -1,4 +1,4 @@
-# Capstone
+# Machine Learning Diabetes
 
 ## Selected Topic
 

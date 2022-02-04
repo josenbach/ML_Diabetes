@@ -32,8 +32,8 @@ CREATE TABLE diabetic_data (
 	miglitol VARCHAR,
 	tolazamide VARCHAR,
 	insulin VARCHAR,
-	glyburide-metformin VARCHAR,
-	glipizide-metformin VARCHAR,
+	glyburide_metformin VARCHAR,
+	glipizide_metformin VARCHAR,
 	change VARCHAR,
 	diabetesMed VARCHAR,
 	readmitted VARCHAR

@@ -15,3 +15,24 @@ We are using data from the UCI Machine Learning Repository. This dataset spans d
 ## Question we hope to answer
 
 Using a machine learning classification model, can demographics, diagnoses, medications, and other related indicators be used to predict whether someone admitted to the hospital with diabetes will have a normal or abnormal (high) HbA1c level. 
+
+## List of Medicines for Reference
+Unspecified Type
+- chlorpropamide
+- tolbutamide
+- acarbose
+- miglitol 
+- tolazamide 
+- insulin    
+
+Type II
+- metformin
+- glyburide
+- Repaglinide
+- nateglinide
+- glimepiride
+- glipizide
+- Pioglitazone
+- rosiglitazone  
+- glyburide-metformin
+- glipizide-metformin

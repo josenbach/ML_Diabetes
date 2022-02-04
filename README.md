@@ -60,4 +60,4 @@ PostgreSQL will be uses for database storage and it will be integrated with **Ta
 ## Machine Learning
 SciKitLearn and TensorFlow are the ML libraries we'll be using to create a classifier. Our training and testing setup is using an 70/30 train-test split ratio. The training set will then be fit into a Neural Network model and a Random Forest model to compare which method has the greatest accuracy.
 ## Dashboard
-Tableau can be to create the dashboard.
+Tableau will be used to create the dashboard.

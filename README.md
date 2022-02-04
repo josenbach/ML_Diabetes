@@ -16,6 +16,10 @@ We are using data from the UCI Machine Learning Repository. This dataset spans d
 
 Using a machine learning classification model, can demographics, diagnoses, medications, and other related indicators be used to predict whether someone admitted to the hospital with diabetes will have a normal or abnormal (high) HbA1c level. 
 
+## Communication protocols
+
+We will meet asynchronously via Slack and Zoom together when needed.
+
 ## List of Medicines for Reference
 Unspecified Type
 - chlorpropamide
@@ -46,3 +50,14 @@ home, expired, and not available
 - **admission_source_id**: Integer identifier corresponding to 21 distinct values, for example, physician referral,
 emergency room, and transfer from a hospital 
 - **time_in_hospital**: Integer number of days between admission and discharge 
+## Technologies that will be used:
+## Hosting platform
+Github will be the code hosting platform.
+## Data Reprocessing and Analysis
+Pandas will be used to explore, clean, and perform an analysis. 
+## Database
+PostgreSQL will be uses for database storage and it will be integrated with **Tableau** to display the data. SQLite will be used for our analysis in our Python notebook.
+## Machine Learning
+SciKitLearn and TensorFlow are the ML libraries we'll be using to create a classifier. Our training and testing setup is using an 70/30 train-test split ratio. The training set will then be fit into a Neural Network model and a Random Forest model to compare which method has the greatest accuracy.
+## Dashboard
+Tableau can be to create the dashboard.

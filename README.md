@@ -53,7 +53,7 @@ Github will be the code hosting platform.
 Pandas will be used to explore, clean, and perform an analysis. 
 ## Database. 
 PostgreSQL will be uses for database storage and it will be integrated with **AWS** to display the data.
-##Machine Learning
+## Machine Learning
 SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is using an 70/30 train-test split ratio. The training set was then fit into a Logistic Regression classifier.
-##Dashboard
+## Dashboard
 In addition to using a Flask template, and Googles Slides, we will also integrate Tableau for a fully functioning and interactive dashboard. It will be hosted on Tableau public.

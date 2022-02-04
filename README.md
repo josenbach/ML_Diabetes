@@ -46,3 +46,14 @@ home, expired, and not available
 - **admission_source_id**: Integer identifier corresponding to 21 distinct values, for example, physician referral,
 emergency room, and transfer from a hospital 
 - **time_in_hospital**: Integer number of days between admission and discharge 
+## Technologies that will be used:
+### Hosting platform
+Github will be the code hosting platform.
+## Data Reprocessing and Analysis
+Pandas will be used to explore, clean, and perform an analysis. 
+## Database. 
+PostgreSQL will be uses for database storage and it will be integrated with **AWS** to display the data.
+##Machine Learning
+SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is using an 70/30 train-test split ratio. The training set was then fit into a Logistic Regression classifier.
+##Dashboard
+In addition to using a Flask template, and Googles Slides, we will also integrate Tableau for a fully functioning and interactive dashboard. It will be hosted on Tableau public.

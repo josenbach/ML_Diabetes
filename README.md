@@ -18,7 +18,7 @@ Using a machine learning classification model, can demographics, diagnoses, medi
 
 ## Communication protocols
 
-We will meet asynchronosly via Slack and Zoom together when needed.
+We will meet asynchronously via Slack and Zoom together when needed.
 
 ## List of Medicines for Reference
 Unspecified Type

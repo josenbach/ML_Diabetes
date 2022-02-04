@@ -47,7 +47,7 @@ home, expired, and not available
 emergency room, and transfer from a hospital 
 - **time_in_hospital**: Integer number of days between admission and discharge 
 ## Technologies that will be used:
-### Hosting platform
+## Hosting platform
 Github will be the code hosting platform.
 ## Data Reprocessing and Analysis
 Pandas will be used to explore, clean, and perform an analysis. 

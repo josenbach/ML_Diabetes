@@ -56,7 +56,7 @@ Github will be the code hosting platform.
 ## Data Reprocessing and Analysis
 Pandas will be used to explore, clean, and perform an analysis. 
 ## Database
-PostgreSQL will be uses for database storage and it will be integrated with **Tableau** to display the data. SQLite will be used for our analysis in our Python notebook.
+SQLAlchemy and SQLite are used for our database in our analysis.
 ## Machine Learning
 SciKitLearn and TensorFlow are the ML libraries we'll be using to create a classifier. Our training and testing setup is using an 70/30 train-test split ratio. The training set will then be fit into a Neural Network model and a Random Forest model to compare which method has the greatest accuracy.
 ## Dashboard

@@ -50,6 +50,8 @@ home, expired, and not available
 - **admission_source_id**: Integer identifier corresponding to 21 distinct values, for example, physician referral,
 emergency room, and transfer from a hospital 
 - **time_in_hospital**: Integer number of days between admission and discharge 
+
+
 ## Technologies that will be used:
 ## Hosting platform
 Github will be the code hosting platform.
@@ -60,4 +62,7 @@ SQLAlchemy and SQLite are used for our database in our analysis.
 ## Machine Learning
 SciKitLearn and TensorFlow are the ML libraries we'll be using to create a classifier. Our training and testing setup is using an 70/30 train-test split ratio. The training set will then be fit into a Neural Network model and a Random Forest model to compare which method has the greatest accuracy.
 ## Dashboard
-Tableau will be used to create the dashboard to display our findings.
+Tableau will be used to create the dashboard to display our findings. 
+Visualizations created in [Tableau](https://pages.github.com/).
+## Slides
+Our slides were created using [Google Slides](https://docs.google.com/presentation/d/1W2DfvjoKXET1t2AdzyoIjnP3BIkupiBVizmdS_L6_j0/edit?usp=sharing).

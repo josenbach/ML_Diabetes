@@ -35,7 +35,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='diabetic_original' name='textscan.0laitcq0n6t6lc1g0riwj0jqrb1r'>
-            <connection class='textscan' directory='C:/Workspace/ML_Diabetes' filename='diabetic_original.csv' password='' server='' workgroup-auth-mode='as-is' />
+            <connection class='textscan' directory='C:/Workspace/ML_Diabetes/Resources' filename='diabetic_original.csv' password='' server='' workgroup-auth-mode='as-is' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0laitcq0n6t6lc1g0riwj0jqrb1r' name='diabetic_original.csv' table='[diabetic_original#csv]' type='table'>
@@ -923,11 +923,11 @@
       <column caption='Troglitazone' datatype='string' name='[troglitazone]' role='dimension' type='nominal' />
       <column caption='Weight' datatype='string' name='[weight]' role='dimension' type='nominal' />
       <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
-        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Workspace/ML_Diabetes/diabetic_original.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='02/12/2022 11:48:02 PM' username='tableau_internal_user'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Workspace/ML_Diabetes/Diabetes.twb Files/diabetic_original.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='02/13/2022 12:44:11 AM' username='tableau_internal_user'>
           <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
           <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
           <refresh increment-key='' incremental-updates='false'>
-            <refresh-event add-from-file-path='diabetic_original' increment-value='%null%' refresh-type='create' rows-inserted='101766' timestamp-start='2022-02-12 23:47:58.864' />
+            <refresh-event add-from-file-path='diabetic_original' increment-value='%null%' refresh-type='create' rows-inserted='101766' timestamp-start='2022-02-13 00:44:06.154' />
           </refresh>
           <metadata-records>
             <metadata-record class='column'>
@@ -953,7 +953,7 @@
               <family>diabetic_original.csv</family>
               <local-type>integer</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>80487</approx-count>
+              <approx-count>43476</approx-count>
               <contains-null>true</contains-null>
             </metadata-record>
             <metadata-record class='column'>
@@ -1008,7 +1008,7 @@
               <family>diabetic_original.csv</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>16</approx-count>
+              <approx-count>18</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
             </metadata-record>
@@ -1022,7 +1022,7 @@
               <family>diabetic_original.csv</family>
               <local-type>integer</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>6</approx-count>
+              <approx-count>13</approx-count>
               <contains-null>true</contains-null>
             </metadata-record>
             <metadata-record class='column'>
@@ -1035,7 +1035,7 @@
               <family>diabetic_original.csv</family>
               <local-type>integer</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>31</approx-count>
+              <approx-count>37</approx-count>
               <contains-null>true</contains-null>
             </metadata-record>
             <metadata-record class='column'>
@@ -1048,7 +1048,7 @@
               <family>diabetic_original.csv</family>
               <local-type>integer</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>9</approx-count>
+              <approx-count>10</approx-count>
               <contains-null>true</contains-null>
             </metadata-record>
             <metadata-record class='column'>
@@ -1074,7 +1074,7 @@
               <family>diabetic_original.csv</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>20</approx-count>
+              <approx-count>22</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
             </metadata-record>
@@ -1088,7 +1088,7 @@
               <family>diabetic_original.csv</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>157</approx-count>
+              <approx-count>125</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
             </metadata-record>
@@ -1102,7 +1102,7 @@
               <family>diabetic_original.csv</family>
               <local-type>integer</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>159</approx-count>
+              <approx-count>123</approx-count>
               <contains-null>true</contains-null>
             </metadata-record>
             <metadata-record class='column'>
@@ -1128,7 +1128,7 @@
               <family>diabetic_original.csv</family>
               <local-type>integer</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>94</approx-count>
+              <approx-count>121</approx-count>
               <contains-null>true</contains-null>
             </metadata-record>
             <metadata-record class='column'>
@@ -1141,7 +1141,7 @@
               <family>diabetic_original.csv</family>
               <local-type>integer</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>20</approx-count>
+              <approx-count>36</approx-count>
               <contains-null>true</contains-null>
             </metadata-record>
             <metadata-record class='column'>
@@ -1154,7 +1154,7 @@
               <family>diabetic_original.csv</family>
               <local-type>integer</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>26</approx-count>
+              <approx-count>73</approx-count>
               <contains-null>true</contains-null>
             </metadata-record>
             <metadata-record class='column'>
@@ -1167,7 +1167,7 @@
               <family>diabetic_original.csv</family>
               <local-type>integer</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>37</approx-count>
+              <approx-count>28</approx-count>
               <contains-null>true</contains-null>
             </metadata-record>
             <metadata-record class='column'>
@@ -1180,7 +1180,7 @@
               <family>diabetic_original.csv</family>
               <local-type>real</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>1023</approx-count>
+              <approx-count>882</approx-count>
               <contains-null>true</contains-null>
             </metadata-record>
             <metadata-record class='column'>
@@ -1193,7 +1193,7 @@
               <family>diabetic_original.csv</family>
               <local-type>real</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>1076</approx-count>
+              <approx-count>920</approx-count>
               <contains-null>true</contains-null>
             </metadata-record>
             <metadata-record class='column'>
@@ -1206,7 +1206,7 @@
               <family>diabetic_original.csv</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>1122</approx-count>
+              <approx-count>1187</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
             </metadata-record>
@@ -1275,7 +1275,7 @@
               <family>diabetic_original.csv</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>2</approx-count>
+              <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
             </metadata-record>
@@ -1289,7 +1289,7 @@
               <family>diabetic_original.csv</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>2</approx-count>
+              <approx-count>7</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
             </metadata-record>
@@ -1303,7 +1303,7 @@
               <family>diabetic_original.csv</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>8</approx-count>
+              <approx-count>1</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
             </metadata-record>
@@ -1317,7 +1317,7 @@
               <family>diabetic_original.csv</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>7</approx-count>
+              <approx-count>6</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
             </metadata-record>
@@ -1373,7 +1373,7 @@
               <family>diabetic_original.csv</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>2</approx-count>
+              <approx-count>1</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
             </metadata-record>
@@ -1387,7 +1387,7 @@
               <family>diabetic_original.csv</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>7</approx-count>
+              <approx-count>4</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
             </metadata-record>
@@ -1401,7 +1401,7 @@
               <family>diabetic_original.csv</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>3</approx-count>
+              <approx-count>7</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
             </metadata-record>
@@ -1513,7 +1513,7 @@
               <family>diabetic_original.csv</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>6</approx-count>
+              <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
             </metadata-record>
@@ -1692,7 +1692,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='diabetes_df' name='textscan.14q1j9a1gihsms1c9nfvh0i2v48r'>
-            <connection class='textscan' directory='C:/Workspace/ML_Diabetes' filename='diabetes_df.csv' password='' server='' workgroup-auth-mode='as-is' />
+            <connection class='textscan' directory='C:/Workspace/ML_Diabetes/Resources' filename='diabetes_df.csv' password='' server='' workgroup-auth-mode='as-is' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.14q1j9a1gihsms1c9nfvh0i2v48r' name='diabetes_df.csv' table='[diabetes_df#csv]' type='table'>
@@ -2438,11 +2438,11 @@
         </groupfilter>
       </group>
       <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
-        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Workspace/ML_Diabetes/Diabetes.twb Files/federated.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='02/12/2022 11:47:03 PM' username='tableau_internal_user'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Workspace/ML_Diabetes/Diabetes.twb Files/federated.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='02/13/2022 12:43:44 AM' username='tableau_internal_user'>
           <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
           <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
           <refresh>
-            <refresh-event add-from-file-path='diabetes_df' increment-value='%null%' refresh-type='create' rows-inserted='16193' timestamp-start='2022-02-12 23:47:01.699' />
+            <refresh-event add-from-file-path='diabetes_df' increment-value='%null%' refresh-type='create' rows-inserted='16193' timestamp-start='2022-02-13 00:43:41.817' />
           </refresh>
           <metadata-records>
             <metadata-record class='column'>
@@ -4499,8 +4499,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='2150' minheight='2150' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='73' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='72' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='75' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='74' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone forceUpdate='true' h='8585' id='16' type-v2='text' w='23519' x='370' y='348'>
                   <formatted-text>
                     <run bold='true' fontname='Times New Roman' fontsize='20'>Diabetes Classfication</run>
@@ -4669,8 +4669,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1300' minheight='1300' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='32' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97916' id='31' param='vert' type-v2='layout-flow' w='98828' x='586' y='1042'>
+            <zone h='100000' id='34' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97916' id='33' param='vert' type-v2='layout-flow' w='98828' x='586' y='1042'>
                 <zone fixed-size='280' h='48958' id='3' is-fixed='true' name='Age and Race' w='43554' x='586' y='1042'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -5453,6 +5453,34 @@
       </viewpoint>
       <simple-id uuid='{F5E54DF1-277A-4E30-9B3A-9B04B6678A6D}' />
     </window>
+    <window class='dashboard' maximized='true' name='Dashboard 2' tab-color='#4f779a'>
+      <viewpoints>
+        <viewpoint name='Age and Gender'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.0ymbee00mg4fa71fh6d3r0g95xly].[none:gender:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Age and Race'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.0ymbee00mg4fa71fh6d3r0g95xly].[none:race:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Race and # Diagnosis'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Race and Gender'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{824E0F20-DE3C-43CE-BA37-717DE985B8B5}' />
+    </window>
     <window class='worksheet' name='Race Gender A1Result' tab-color='#f66273'>
       <cards>
         <edge name='left'>
@@ -5493,7 +5521,7 @@
       </viewpoint>
       <simple-id uuid='{B9E2E819-6126-48CA-8622-6AEC9A565F9F}' />
     </window>
-    <window class='worksheet' maximized='true' name='Sheet 20'>
+    <window class='worksheet' name='Sheet 20'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -5530,34 +5558,6 @@
         </highlight>
       </viewpoint>
       <simple-id uuid='{AD23C2CC-88F1-45E8-B998-0529D7119C62}' />
-    </window>
-    <window class='dashboard' name='Dashboard 2'>
-      <viewpoints>
-        <viewpoint name='Age and Gender'>
-          <zoom type='entire-view' />
-          <highlight>
-            <color-one-way>
-              <field>[federated.0ymbee00mg4fa71fh6d3r0g95xly].[none:gender:nk]</field>
-            </color-one-way>
-          </highlight>
-        </viewpoint>
-        <viewpoint name='Age and Race'>
-          <zoom type='entire-view' />
-          <highlight>
-            <color-one-way>
-              <field>[federated.0ymbee00mg4fa71fh6d3r0g95xly].[none:race:nk]</field>
-            </color-one-way>
-          </highlight>
-        </viewpoint>
-        <viewpoint name='Race and # Diagnosis'>
-          <zoom type='entire-view' />
-        </viewpoint>
-        <viewpoint name='Race and Gender'>
-          <zoom type='entire-view' />
-        </viewpoint>
-      </viewpoints>
-      <active id='-1' />
-      <simple-id uuid='{824E0F20-DE3C-43CE-BA37-717DE985B8B5}' />
     </window>
   </windows>
   <thumbnails>

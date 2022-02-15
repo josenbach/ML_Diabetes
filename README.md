@@ -64,8 +64,8 @@ emergency room, and transfer from a hospital
 ### Dashboard
 ```Tableau``` will be used to create the dashboard to display our findings. 
 - [Tableau-Intisar](https://public.tableau.com/app/profile/intisar3500/viz/ML-DiabetesClassification/Dashboard1?publish=yes).
-- [Tableau-Minnie Preliminary raw data](https://public.tableau.com/views/ML-DiabetesClassification_16447097191460/Raw_Visualizations?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link).
-- [Tableau-Minnie-db-data](https://public.tableau.com/views/ML-Diabetes_A1MEtformin/Dashboard3?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link).
+- [Tableau-Minnie Raw data from UCI](https://public.tableau.com/views/ML-DiabetesClassification_16447097191460/Raw_Visualizations?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link).
+- [Tableau-Minnie](https://public.tableau.com/views/ML-Diabetes_A1MEtformin/Dashboard3?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link).
 
 
 ## Slides

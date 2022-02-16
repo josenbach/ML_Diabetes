@@ -20,26 +20,6 @@ Using a machine learning classification model, can demographics, diagnoses, medi
 
 We will meet asynchronously via Slack and Zoom together when needed.
 
-## List of Medicines for Reference
-Unspecified Type
-- chlorpropamide
-- tolbutamide
-- acarbose
-- miglitol 
-- tolazamide 
-- insulin    
-
-Type II
-- metformin
-- glyburide
-- Repaglinide
-- nateglinide
-- glimepiride
-- glipizide
-- Pioglitazone
-- rosiglitazone  
-- glyburide-metformin
-- glipizide-metformin
 
 ## Notes of columns
 - **Readmitted** Days to inpatient readmission. Values: “<30” if the patient was readmitted in less than 30 days, “>30” if the patient was readmitted in more than 30 days, and “No” for no record of readmission

@@ -20,26 +20,6 @@ Using a machine learning classification model, can demographics, diagnoses, medi
 
 We will meet asynchronously via Slack and Zoom together when needed.
 
-## List of Medicines for Reference
-Unspecified Type
-- chlorpropamide
-- tolbutamide
-- acarbose
-- miglitol 
-- tolazamide 
-- insulin    
-
-Type II
-- metformin
-- glyburide
-- Repaglinide
-- nateglinide
-- glimepiride
-- glipizide
-- Pioglitazone
-- rosiglitazone  
-- glyburide-metformin
-- glipizide-metformin
 
 ## Notes of columns
 - **Readmitted** Days to inpatient readmission. Values: “<30” if the patient was readmitted in less than 30 days, “>30” if the patient was readmitted in more than 30 days, and “No” for no record of readmission
@@ -66,6 +46,39 @@ emergency room, and transfer from a hospital
 - [Tableau-Intisar](https://public.tableau.com/app/profile/intisar3500/viz/ML-DiabetesClassification/Dashboard1?publish=yes).
 - [Tableau-Minnie Raw data from UCI](https://public.tableau.com/views/ML-DiabetesClassification_16447097191460/Raw_Visualizations?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link).
 - [Tableau-Minnie](https://public.tableau.com/views/ML-Diabetes_A1MEtformin/Dashboard3?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link).
+
+## Machine Learning Model
+
+**Description of preliminary data preprocessing**
+- Removed the following columns
+  - Non-beneficial ID column – would not add value to analysis (patient_nbr)
+  - Columns with missing values greater than 50% were converted into “NA” before being dropped because there’s not enough data to contribute to significant analysis (weight, payer_code, max_glu_serum, medical_specialty).
+  - Columns with outliers are checked and dropped, because outliers can spoil the and mislead the training process resulting in longer training times, less accurate models and ultimately poorer results. 
+  - Columns with only 1 value – 7 diabetic medications were noted as not given to any of the patients in our database, so keeping these columns would not provide additional insight (acetohexamide, troglitazone, examide, citoglipton, glimepiride-pioglitazone, metformin-rosiglitazone, metformin-pioglitazone)
+
+**Description of feature engineering and the feature selection, including their decision-making process**
+- Target variable: HgA1c level (A1Cresult) was converted from 4 values (none, normal, >7, >8) to 2 values (≤ 7 or > 7)*
+*HgA1c level–normal (less than or equal to 7%) or high (greater than 7%)
+
+
+
+•	Additional columns removed in an attempt to improve accuracy score
+o	Diabetic medications – the type of diabetic medications patients are taking might not have an effect on A1c levels
+
+**Description of how data was split into training and testing sets**
+- Training set at 70%, testing set at 30%
+
+**Explanation of model choice, including limitations and benefits**
+- Classification predictive modeling utilizing neural network and random forest models (supervised machine learning) for comparison
+  - Neural Network Model: 3 hidden layers, activation function–relu (input), sigmoid (output)
+    - Benefits: with a complex dataset with almost 50 feature variables, this model has a greater tolerance for messy data and detect complex, nonlinear relationships
+    - Limitations: prone to overfitting and may not generalize well
+
+**Description of how model is trained thus far, and any additional training that will take place**
+- Generated Random Forest Model to rank feature importance
+- Utilized PCA with marginally improved accuracy score
+
+**Description of current accuracy score**
 
 
 ## Slides

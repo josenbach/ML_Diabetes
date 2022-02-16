@@ -47,6 +47,35 @@ emergency room, and transfer from a hospital
 - [Tableau-Minnie Raw data from UCI](https://public.tableau.com/views/ML-DiabetesClassification_16447097191460/Raw_Visualizations?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link).
 - [Tableau-Minnie](https://public.tableau.com/views/ML-Diabetes_A1MEtformin/Dashboard3?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link).
 
+## Machine Learning Model
+
+**Description of preliminary data preprocessing**
+•	Removed the following columns
+o	Non-beneficial ID column – would not add value to analysis (patient_nbr)
+o	Columns with missing values greater than 50% were converted into “NA” before being dropped because there’s not enough data to contribute to significant analysis (weight, payer_code, max_glu_serum, medical_specialty).
+o	Columns with outliers are checked and dropped, because outliers can spoil the and mislead the training process resulting in longer training times, less accurate models and ultimately poorer results. 
+o	Columns with only 1 value – 7 diabetic medications were noted as not given to any of the patients in our database, so keeping these columns would not provide additional insight (acetohexamide, troglitazone, examide, citoglipton, glimepiride-pioglitazone, metformin-rosiglitazone, metformin-pioglitazone)
+
+•	Target variable: HgA1c level (A1Cresult) was converted from 4 values (none, normal, >7, >8) to 2 values (≤ 7 or > 7)*
+*HgA1c level–normal (less than or equal to 7%) or high (greater than 7%)
+
+•	Generated Random Forest Model to rank feature importance
+
+•	Utilized PCA with marginally improved accuracy score
+
+•	Additional columns removed in an attempt to improve accuracy score
+o	Diabetic medications – the type of diabetic medications patients are taking might not have an effect on A1c levels
+
+**Description of how data was split into training and testing sets**
+•	Training set at 70%, testing set at 30%
+
+**Explanation of model choice, including limitations and benefits**
+•	Classification predictive modeling utilizing neural network and random forest models (supervised machine learning) for comparison
+o	Neural Network Model: 3 hidden layers, activation function–relu (input), sigmoid (output)
+	Benefits: with a complex dataset with almost 50 feature variables, this model has a greater tolerance for messy data and detect complex, nonlinear relationships
+	Limitations: prone to overfitting and may not generalize well
+
+
 
 ## Slides
 Our slides were created using [Google Slides](https://docs.google.com/presentation/d/1W2DfvjoKXET1t2AdzyoIjnP3BIkupiBVizmdS_L6_j0/edit?usp=sharing).

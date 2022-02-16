@@ -91,5 +91,19 @@ emergency room, and transfer from a hospital
 ![image](https://user-images.githubusercontent.com/89353378/154196032-6e59faf1-1345-4bd1-8cce-67716d9f662b.png)
 
 
+## Database
+**Database stores static data for use during the project**
+- SQLite and SQLAlchemy
+**Database interfaces with the project in some format**
+- SQLAlchemy creates connection for Pandas DataFrame
+**Includes at least two tables**
+- Table 1: admission and medication information
+- Table 2: admission diagnosis – diagnosis columns (diag_1, diag_2, and diag_3) were grouped by ICD-9 codes of the major human organ systems
+**Includes at least one join using the database language**
+- The aboves tables were joined by encounter_id
+**Includes at least one connection string (using SQLAlchemy or PyMongo)**
+- SQLAlchemy
+
+
 ## Slides
 Our slides were created using [Google Slides](https://docs.google.com/presentation/d/1W2DfvjoKXET1t2AdzyoIjnP3BIkupiBVizmdS_L6_j0/edit?usp=sharing).

@@ -6,7 +6,7 @@ Diabetes is a leading cause of disability and mortality in the US. One of the wa
 
 ## Reason for topic selection
 
-Most of the data are numeric and sufficient enough for the machine learning model to answer our question.
+According to the CDC, 37.3 million people have diabetes (11.3% of the US population), and diabetes prevalence has grown significantly from 2004 to 2019.  We were able to locate a dataset with sufficient amounts of mostly numeric data to utilize machine learning model to answer our question.
 
 ## Description of datasource
 
@@ -14,7 +14,7 @@ We are using data from the UCI Machine Learning Repository. This dataset spans d
 
 ## Question we hope to answer
 
-Using a machine learning classification model, can demographics, diagnoses, medications, and other related indicators be used to predict whether someone admitted to the hospital with diabetes will have a normal or abnormal (high) HbA1c level. 
+Using a machine learning classification model, can demographics, diagnoses, medications, and other related indicators be used to predict whether someone admitted to the hospital with diabetes will have a normal or abnormal (high) HbA1c level?  An accurate HbA1c prediction can reduce the number of times a diabetic patient would need to obtain diagnostic blood work. 
 
 ## Communication protocols
 

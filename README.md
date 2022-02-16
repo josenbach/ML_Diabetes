@@ -59,7 +59,8 @@ emergency room, and transfer from a hospital
 **Description of feature engineering and the feature selection, including their decision-making process**
 - Target variable
   - HgA1c level (A1Cresult) was converted from 4 values (none, normal, >7, >8) to 2 values (≤ 7 or > 7)*
-  - HgA1c level–normal (less than or equal to 7%) or high (greater than 7%)
+    - HgA1c level–normal (less than or equal to 7%)
+    - HgA1c level-high (greater than 7%)
 
 - Feature variables: 
   - utilized Random Forest Model to rank feature importance in order and selected the top 8 features:

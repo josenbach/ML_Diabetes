@@ -77,8 +77,7 @@ We will meet asynchronously via Slack and Zoom together when needed.
 
 **Description of current accuracy score**
 
-![Screenshot (697)](https://user-images.githubusercontent.com/62036983/154344448-f4890165-c8d2-4823-95b1-c3219a526abc.png)
-
+![Screenshot (700)](https://user-images.githubusercontent.com/62036983/154374095-fd4de3e7-4b97-408e-b897-7809fd33711d.png)
 
 ## Database
 **Database stores static data for use during the project**

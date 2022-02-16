@@ -29,7 +29,7 @@ We will meet asynchronously via Slack and Zoom together when needed.
 ```SQLAlchemy``` and ```SQLite``` are used for our database in our analysis.
 ### Machine Learning
 ```SciKitLearn``` and ```TensorFlow``` are the ML libraries we'll be using to create a classifier. Our training and testing setup is using an 70/30 train-test split ratio. The training set will then be fit into a Neural Network model and a Random Forest model to compare which method has the greatest accuracy.
-### Dashboard
+## Dashboard
 ```Tableau``` will be used to create the dashboard to display our findings. 
 - [Tableau-Intisar](https://public.tableau.com/app/profile/intisar3500/viz/ML-DiabetesClassification/Dashboard1?publish=yes).
 - [Tableau-Minnie Raw data from UCI](https://public.tableau.com/views/ML-DiabetesClassification_16447097191460/Raw_Visualizations?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link).
@@ -69,7 +69,7 @@ We will meet asynchronously via Slack and Zoom together when needed.
     - Benefits: with a complex dataset with almost 50 feature variables, this model has a greater tolerance for messy data and detect complex, nonlinear relationships
     - Limitations: prone to overfitting and may not generalize well
 
-![image](https://user-images.githubusercontent.com/89353378/154197326-e161c108-6c7c-4a03-93b7-99717995edbc.png)
+![a](https://user-images.githubusercontent.com/62036983/154342773-1aab4424-c17f-4f59-b1a4-8c023ca22baa.png)
 
 **Description of how model is trained thus far, and any additional training that will take place**
 - Generated Random Forest Model to rank feature importance

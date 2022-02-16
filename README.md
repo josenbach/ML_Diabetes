@@ -57,11 +57,20 @@ emergency room, and transfer from a hospital
   - Columns with only 1 value – 7 diabetic medications were noted as not given to any of the patients in our database, so keeping these columns would not provide additional insight (acetohexamide, troglitazone, examide, citoglipton, glimepiride-pioglitazone, metformin-rosiglitazone, metformin-pioglitazone)
 
 **Description of feature engineering and the feature selection, including their decision-making process**
-- Target variable: HgA1c level (A1Cresult) was converted from 4 values (none, normal, >7, >8) to 2 values (≤ 7 or > 7)*
-*HgA1c level–normal (less than or equal to 7%) or high (greater than 7%)
+- Target variable
+  - HgA1c level (A1Cresult) was converted from 4 values (none, normal, >7, >8) to 2 values (≤ 7 or > 7)*
+  - HgA1c level–normal (less than or equal to 7%) or high (greater than 7%)
 
-- Additional columns removed in an attempt to improve accuracy score
-  - Diabetic medications – the type of diabetic medications patients are taking might not have an effect on A1c levels
+- Feature variables: 
+  - utilized Random Forest Model to rank feature importance in order and selected the top 8 features:
+    - num_lab_procedures
+    - num_medications	
+    - time_in_hospital	
+    - num_procedures	
+    - number_diagnoses	
+    - discharge_disposition_id	
+    - admission_type_id	
+    - admission_source_id
 
 **Description of how data was split into training and testing sets**
 - Training set at 70%, testing set at 30%

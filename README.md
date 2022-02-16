@@ -20,22 +20,10 @@ Using a machine learning classification model, can demographics, diagnoses, medi
 
 We will meet asynchronously via Slack and Zoom together when needed.
 
-
-## Notes of columns
-- **Readmitted** Days to inpatient readmission. Values: “<30” if the patient was readmitted in less than 30 days, “>30” if the patient was readmitted in more than 30 days, and “No” for no record of readmission
-- **Admission Type**: Integer identifier corresponding to 9 distinct values, for example, emergency, urgent,
-elective, newborn, and not available 
-- **Discharge Disposition** Integer identifier corresponding to 29 distinct values, for example, discharged to
-home, expired, and not available
-- **admission_source_id**: Integer identifier corresponding to 21 distinct values, for example, physician referral,
-emergency room, and transfer from a hospital 
-- **time_in_hospital**: Integer number of days between admission and discharge 
-
-
-## Technologies that will be used:
+## Technologies used:
 ### Hosting platform
 ```GitHub``` will be the code hosting platform.
-### Data Reprocessing and Analysis
+### Data Preprocessing and Analysis
 ```Pandas``` will be used to explore, clean, and perform an analysis. 
 ### Database
 ```SQLAlchemy``` and ```SQLite``` are used for our database in our analysis.
@@ -47,8 +35,8 @@ emergency room, and transfer from a hospital
 - [Tableau-Minnie Raw data from UCI](https://public.tableau.com/views/ML-DiabetesClassification_16447097191460/Raw_Visualizations?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link).
 - [Tableau-Minnie](https://public.tableau.com/views/ML-Diabetes_A1MEtformin/Dashboard3?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link).
 
-## Machine Learning Analysis
 
+## Machine Learning Analysis
 **Description of preliminary data preprocessing**
 - Removed the following columns
   - Non-beneficial ID column – would not add value to analysis (patient_nbr)
@@ -61,7 +49,6 @@ emergency room, and transfer from a hospital
   - HgA1c level (A1Cresult) was converted from 4 values (none, normal, >7, >8) to 2 values (≤ 7 or > 7)*
     - HgA1c level–normal (less than or equal to 7%)
     - HgA1c level-high (greater than 7%)
-
 - Feature variables: 
   - utilized Random Forest Model to rank feature importance in order and selected the top 8 features:
     - num_lab_procedures

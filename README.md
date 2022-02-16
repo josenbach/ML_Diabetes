@@ -69,6 +69,8 @@ We will meet asynchronously via Slack and Zoom together when needed.
     - Benefits: with a complex dataset with almost 50 feature variables, this model has a greater tolerance for messy data and detect complex, nonlinear relationships
     - Limitations: prone to overfitting and may not generalize well
 
+![image](https://user-images.githubusercontent.com/89353378/154197326-e161c108-6c7c-4a03-93b7-99717995edbc.png)
+
 **Description of how model is trained thus far, and any additional training that will take place**
 - Generated Random Forest Model to rank feature importance
 - Utilized PCA with marginally improved accuracy score

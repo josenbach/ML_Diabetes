@@ -47,7 +47,7 @@ emergency room, and transfer from a hospital
 - [Tableau-Minnie Raw data from UCI](https://public.tableau.com/views/ML-DiabetesClassification_16447097191460/Raw_Visualizations?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link).
 - [Tableau-Minnie](https://public.tableau.com/views/ML-Diabetes_A1MEtformin/Dashboard3?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link).
 
-## Machine Learning Model
+## Machine Learning Analysis
 
 **Description of preliminary data preprocessing**
 - Removed the following columns
@@ -60,10 +60,8 @@ emergency room, and transfer from a hospital
 - Target variable: HgA1c level (A1Cresult) was converted from 4 values (none, normal, >7, >8) to 2 values (≤ 7 or > 7)*
 *HgA1c level–normal (less than or equal to 7%) or high (greater than 7%)
 
-
-
-•	Additional columns removed in an attempt to improve accuracy score
-o	Diabetic medications – the type of diabetic medications patients are taking might not have an effect on A1c levels
+- Additional columns removed in an attempt to improve accuracy score
+  - Diabetic medications – the type of diabetic medications patients are taking might not have an effect on A1c levels
 
 **Description of how data was split into training and testing sets**
 - Training set at 70%, testing set at 30%

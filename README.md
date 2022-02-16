@@ -88,6 +88,8 @@ emergency room, and transfer from a hospital
 
 **Description of current accuracy score**
 
+![image](https://user-images.githubusercontent.com/89353378/154196032-6e59faf1-1345-4bd1-8cce-67716d9f662b.png)
+
 
 ## Slides
 Our slides were created using [Google Slides](https://docs.google.com/presentation/d/1W2DfvjoKXET1t2AdzyoIjnP3BIkupiBVizmdS_L6_j0/edit?usp=sharing).

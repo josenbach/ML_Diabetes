@@ -29,17 +29,20 @@ We will meet asynchronously via Slack and Zoom together when needed.
 ```SQLAlchemy``` and ```SQLite``` are used for our database in our analysis.
 ### Machine Learning
 ```SciKitLearn``` and ```TensorFlow``` are the ML libraries we'll be using to create a classifier. Our training and testing setup is using an 70/30 train-test split ratio. The training set will then be fit into a Neural Network model and a Random Forest model to compare which method has the greatest accuracy.
+
+
 ## Dashboard
 ```Tableau``` will be used to create the dashboard to display our findings.
 - [Workbook - All Sheets](https://public.tableau.com/views/JointDashboard/MeasuresperTestResult?:language=en-US&:display_count=n&:origin=viz_share_link).
 
-- *Sheets will be hidden once we decide on visuals for dashboard pending final version of database*
+*Sheets will be hidden once we decide on visuals for dashboard pending final version of database*
 
 **Description of Tools to create final dashboard**
-- Dashboard will contain multiple tabs (dashboards) to show different visualizations including bar charts, density charts, pie charts, etc. related to  race, age, gender, as well as other items such as most popular medicines, and the patient's status. 
+- Dashboard will contain multiple tabs (dashboards) to show different visualizations including bar charts, density charts, pie charts, etc. related to  race, age, gender, as well as other items such as most popular medicines, and the patient's status. The fashboard may also include the original dataset and visualizations similar to the ones based on our data set for the intent of story telling.
 
 **Interactive Piece**
-- A user may be able to select particular attributes such as focusing on gender, or even multiple like gender and age. If they select a group such as Females aged 20-30, it the dashboard will update visuals to only show results for females aged 20-30. This will allow the user to check for different types of patients based on the data in our database.
+- A user may be able to select particular attributes such as focusing on gender, or even multiple like gender and age. If they select a group such as Females aged 20-30, it will update visuals to only show results for females aged 20-30. This will allow the user to check for different types of patients based on the data in our database. This will also be present in the original dataset visualizations for our story telling.
+
 
 ## Machine Learning Analysis
 **Description of preliminary data preprocessing**

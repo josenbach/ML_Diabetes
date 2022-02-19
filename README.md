@@ -34,7 +34,7 @@ We will meet asynchronously via Slack and Zoom together when needed.
 - [Workbook - All Sheets](https://public.tableau.com/views/JointDashboard/MeasuresperTestResult?:language=en-US&:display_count=n&:origin=viz_share_link).
 
 - *Sheets will be hidden once we decide on visuals for dashboard pending final version of database*
-- 
+
 **Description of Tools to create final dashboard**
 - Dashboard will contain multiple tabs (dashboards) to show different visualizations including bar charts, density charts, pie charts, etc. related to  race, age, gender, as well as other items such as most popular medicines, and the patient's status. 
 

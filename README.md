@@ -77,7 +77,7 @@ We will meet asynchronously via Slack and Zoom together when needed.
     - Benefits: with a complex dataset with almost 50 feature variables, this model has a greater tolerance for messy data and detect complex, nonlinear relationships
     - Limitations: prone to overfitting and may not generalize well
 
-![a](https://user-images.githubusercontent.com/62036983/154342773-1aab4424-c17f-4f59-b1a4-8c023ca22baa.png)
+![dense1](https://user-images.githubusercontent.com/62036983/154826210-a883bf7e-3499-42a7-b5f9-dcf6867ec243.png)
 
 **Description of how model is trained thus far, and any additional training that will take place**
 - Generated Random Forest Model to rank feature importance
@@ -85,7 +85,7 @@ We will meet asynchronously via Slack and Zoom together when needed.
 
 **Description of current accuracy score**
 
-![Screenshot (700)](https://user-images.githubusercontent.com/62036983/154374095-fd4de3e7-4b97-408e-b897-7809fd33711d.png)
+![4444](https://user-images.githubusercontent.com/62036983/154826213-217a02d1-4490-4b7d-9b36-1e21af14cc6d.png)
 
 ## Database
 **Database stores static data for use during the project**

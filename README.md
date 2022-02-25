@@ -28,7 +28,7 @@ Using a machine learning classification model, can demographics, diagnoses, medi
 
 ## Dashboard
 ```Tableau``` will be used to create the dashboard to display our findings.
-- [Dashboard](https://public.tableau.com/app/profile/minerva.magana/viz/JointDashboard/DiabetesClassificationbyAgeGroupsDiagnosis).
+- [Dashboard](https://public.tableau.com/views/JointDashboard/DiabetesClassificationbyAgeGroupsDiagnosis_1?:language=en-US&:display_count=n&:origin=viz_share_link).
 
 *Sheets will be hidden once we decide on visuals for dashboard pending final version of database*
 

@@ -16,10 +16,6 @@ We are using data from the UCI Machine Learning Repository. This dataset spans d
 
 Using a machine learning classification model, can demographics, diagnoses, medications, and other related indicators be used to predict whether someone admitted to the hospital with diabetes will have a normal or abnormal (high) HbA1c level?  An accurate HbA1c prediction can reduce the number of times a diabetic patient would need to obtain diagnostic blood work. 
 
-## Communication protocols
-
-We will meet asynchronously via Slack and Zoom together when needed.
-
 ## Technologies used:
 ### Hosting platform
 ```GitHub``` will be the code hosting platform.
@@ -29,7 +25,6 @@ We will meet asynchronously via Slack and Zoom together when needed.
 ```SQLAlchemy``` and ```SQLite``` are used for our database in our analysis.
 ### Machine Learning
 ```SciKitLearn``` and ```TensorFlow``` are the ML libraries we'll be using to create a classifier. Our training and testing setup is using an 70/30 train-test split ratio. The training set will then be fit into a Neural Network model and a Random Forest model to compare which method has the greatest accuracy.
-
 
 ## Dashboard
 ```Tableau``` will be used to create the dashboard to display our findings.
@@ -42,7 +37,6 @@ We will meet asynchronously via Slack and Zoom together when needed.
 
 **Interactive Piece**
 - A user may be able to select particular attributes such as focusing on gender, or even multiple like gender and age. If they select a group such as Females aged 20-30, it will update visuals to only show results for females aged 20-30. This will allow the user to check for different types of patients based on the data in our database. This will also be present in the original dataset visualizations for our story telling.
-
 
 ## Machine Learning Analysis
 **Description of preliminary data preprocessing**
@@ -99,7 +93,6 @@ We will meet asynchronously via Slack and Zoom together when needed.
 - The aboves tables were joined by encounter_id
 **Includes at least one connection string (using SQLAlchemy or PyMongo)**
 - SQLAlchemy
-
 
 ## Slides
 Our slides were created using [Google Slides](https://docs.google.com/presentation/d/1W2DfvjoKXET1t2AdzyoIjnP3BIkupiBVizmdS_L6_j0/edit?usp=sharing).

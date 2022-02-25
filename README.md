@@ -78,7 +78,7 @@ Using a machine learning classification model, can demographics, diagnoses, medi
 
 **Description of current accuracy score**
 
-![4444](https://user-images.githubusercontent.com/62036983/154826213-217a02d1-4490-4b7d-9b36-1e21af14cc6d.png)
+![Confusion Matrix](/Resources/Confusion_Matrix.png)
 
 ## Database
 **Database stores static data for use during the project**

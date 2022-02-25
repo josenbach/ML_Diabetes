@@ -33,7 +33,7 @@ We will meet asynchronously via Slack and Zoom together when needed.
 
 ## Dashboard
 ```Tableau``` will be used to create the dashboard to display our findings.
-- [Workbook - All Sheets](https://public.tableau.com/views/JointDashboard/MeasuresperTestResult?:language=en-US&:display_count=n&:origin=viz_share_link).
+- [Dashboard](https://public.tableau.com/views/JointDashboard/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link).
 
 *Sheets will be hidden once we decide on visuals for dashboard pending final version of database*
 

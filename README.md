@@ -66,7 +66,7 @@ Using a machine learning classification model, can demographics, diagnoses, medi
 - Training set at 70%, testing set at 30%
 
 **Explanation of model choice, including limitations and benefits**
-- Classification predictive modeling utilizing neural network and random forest models (supervised machine learning) for comparison
+- Classification model utilizing neural network and random forest models (supervised machine learning) for comparison
   - Neural Network Model: 3 hidden layers, activation function–relu (input), sigmoid (output)
     - Benefits: with a complex dataset with almost 50 feature variables, this model has a greater tolerance for messy data and detect complex, nonlinear relationships
     - Limitations: prone to overfitting and may not generalize well
@@ -74,10 +74,12 @@ Using a machine learning classification model, can demographics, diagnoses, medi
 ![dense1](https://user-images.githubusercontent.com/62036983/154826210-a883bf7e-3499-42a7-b5f9-dcf6867ec243.png)
 
 **Description of how model is trained thus far, and any additional training that will take place**
-- Generated Random Forest Model to rank feature importance
+- Generated Random Forest model to rank feature importance
+- Utilized neural network model for classification
 
-**Description of current accuracy score**
-
+**Description of accuracy score**
+- The accuracy score of the model was 70%. Unfortunately, after examining the precision and recall, the model was good at classifyinng high A1c but poor at glassifying normal A1c.
+- 
 ![Confusion Matrix](/Resources/Confusion_Matrix.png)
 
 ## Database

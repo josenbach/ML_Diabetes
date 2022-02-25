@@ -75,7 +75,6 @@ Using a machine learning classification model, can demographics, diagnoses, medi
 
 **Description of how model is trained thus far, and any additional training that will take place**
 - Generated Random Forest Model to rank feature importance
-- Utilized PCA with marginally improved accuracy score
 
 **Description of current accuracy score**
 

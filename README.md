@@ -27,9 +27,11 @@ Using a machine learning classification model, can demographics, diagnoses, medi
 ```SciKitLearn``` and ```TensorFlow``` are the ML libraries we'll be using to create a classifier. Our training and testing setup is using an 70/30 train-test split ratio. The training set will then be fit into a Neural Network model and a Random Forest model to compare which method has the greatest accuracy.
 
 ## Dashboard
-```Tableau``` will be used to create the dashboard to display our findings.
-- [Dashboard](https://public.tableau.com/views/JointDashboard/DiabetesClassificationbyAgeGroupsDiagnosis_1?:language=en-US&:display_count=n&:origin=viz_share_link).
-
+```Tableau``` will be used to create the dashboard to display our findings. Storyboards are linked which contain dashboards.
+- [Raw Data Storyboard](https://public.tableau.com/views/DiabetesRawData/DiabetesRawData?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link).
+Information here can be filtered relavent to potential screening questions.
+- [Database Data Storyboard](https://public.tableau.com/views/DiabetesDBData/DiabetesDatabaseVisualization?:language=en-US&:display_count=n&:origin=viz_share_link).
+- 
 *Sheets will be hidden once we decide on visuals for dashboard pending final version of database*
 
 **Description of Tools to create final dashboard**

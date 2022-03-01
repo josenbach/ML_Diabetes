@@ -28,10 +28,10 @@ Using a machine learning classification model, can demographics, diagnoses, medi
 
 ## Dashboard
 ```Tableau``` will be used to create the dashboard to display our findings. Storyboards are linked which contain dashboards.
-- [Raw Data Storyboard](https://public.tableau.com/app/profile/intisar3500/viz/DiabetesUCIData/DiabetesRawData).
+- [Raw Data Storyboard](https://public.tableau.com/app/profile/intisar3500/viz/UCIDiabetesData/DiabetesRawData).
 Information here can be filtered relavent to potential screening questions.
 - [Database Data Storyboard](https://public.tableau.com/views/DiabetesDBData/DiabetesDatabaseVisualization?:language=en-US&:display_count=n&:origin=viz_share_link).
-- 
+
 *Sheets will be hidden once we decide on visuals for dashboard pending final version of database*
 
 **Description of Tools to create final dashboard**

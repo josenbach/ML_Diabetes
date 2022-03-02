@@ -2,7 +2,7 @@
 
 ## Selected Topic
 
-Diabetes is a leading cause of disability and mortality in the US. One of the ways healthcare providers monitor blood sugar levels in patients is by taking a blood test to measure HbA1c percentage. HbA1c is a measure of glycated haemoglobin, or glucose(sugar) that is in the red blood cells of the body. Red blood cells have a 2-3 month life span, meaning that HbA1c is an indicator of blood glucose levels over 2-3 months. High HbA1c levels mean that the patient has had 2-3 months of high levels of blood sugar, which is correlated with higher instances of diabetic complications. Using data from over 70,000 hospitalized diabetic patients nationwide, we are utilizing classification methods to predict whether HbA1c levels are within a normal range, or an abnormal (high) range, based on other health-related factors.
+Diabetes is a leading cause of disability and mortality in the US. One of the ways healthcare providers monitor blood sugar levels in patients is by taking a blood test to measure HbA1c percentage. HbA1c is a measure of glycated haemoglobin, or glucose (sugar), that is in the red blood cells of the body. Red blood cells have a 2-3 month life span, meaning that HbA1c is an indicator of blood glucose levels over 2-3 months. High HbA1c levels mean that the patient has had 2-3 months of high levels of blood sugar, which is correlated with higher instances of diabetic complications. Using data from over 70,000 hospitalized diabetic patients nationwide, we are utilizing classification methods to predict whether HbA1c levels are within a normal range, or an abnormal (high) range, based on other health-related factors.
 
 ## Reason for topic selection
 

@@ -10,7 +10,7 @@ According to the CDC, 37.3 million people have diabetes (11.3% of the US populat
 
 ## Description of datasource
 
-We are using data from the UCI Machine Learning Repository. This dataset spans diabetic hospital encounters nationwide between 1999 and 2008 (the dataset from the UCI Machine Learning Repository can be found [here](https://archive.ics.uci.edu/ml/machine-learning-databases/00296/)).
+We used data from the UCI Machine Learning Repository. This dataset spans diabetic hospital encounters nationwide between 1999 and 2008 (the dataset from the UCI Machine Learning Repository can be found [here](https://archive.ics.uci.edu/ml/machine-learning-databases/00296/)).
 
 ## Question we hope to answer
 
@@ -18,24 +18,22 @@ Using a machine learning classification model, can demographics, diagnoses, medi
 
 ## Technologies used:
 ### Hosting platform
-```GitHub``` will be the code hosting platform.
+```GitHub``` was the code hosting platform.
 ### Data Preprocessing and Analysis
-```Pandas``` will be used to explore, clean, and perform an analysis. 
+```Pandas``` was used to explore, clean, and perform an analysis. 
 ### Database
-```SQLAlchemy``` and ```SQLite``` are used for our database in our analysis.
+```SQLAlchemy``` and ```SQLite``` were used for our database in our analysis.
 ### Machine Learning
-```SciKitLearn``` and ```TensorFlow``` are the ML libraries we'll be using to create a classifier. Our training and testing setup is using an 70/30 train-test split ratio. The training set will then be fit into a Neural Network model and a Random Forest model to compare which method has the greatest accuracy.
+```SciKitLearn``` and ```TensorFlow``` were the ML libraries we'll be using to create a classifier. Our training and testing setup is using an 70/30 train-test split ratio. The training set will then be fit into a Neural Network model and a Random Forest model to compare which method has the greatest accuracy.
 
 ## Dashboard
-```Tableau``` will be used to create the dashboard to display our findings. Storyboards are linked which contain dashboards.
+```Tableau``` was used to create the dashboard to display our findings. 
 - [Raw Data Storyboard](https://public.tableau.com/app/profile/minerva.magana/viz/JointDashboard/DiabetesRawData).
-Information here can be filtered relavent to potential screening questions.
 - [Database Data Storyboard](https://public.tableau.com/views/DiabetesDBData/DiabetesDatabaseVisualization?:language=en-US&:display_count=n&:origin=viz_share_link).
-
-*Sheets will be hidden once we decide on visuals for dashboard pending final version of database*
+Information here can be filtered relavent to potential screening questions.
 
 **Description of Tools to create final dashboard**
-- Dashboard will contain multiple tabs (dashboards) to show different visualizations including bar charts, density charts, pie charts, etc. related to  race, age, gender, as well as other items such as most popular medicines, and the patient's status. The fashboard may also include the original dataset and visualizations similar to the ones based on our data set for the intent of story telling.
+- Dashboard contains multiple tabs to show different visualizations including bar charts, density charts, pie charts, etc. related to  race, age, gender, as well as other items such as most popular medicines, and the patient's status. The dashboard may also include the original dataset and visualizations similar to the ones based on our data set for the intent of story telling.
 
 **Interactive Piece**
 - A user may be able to select particular attributes such as focusing on gender, or even multiple like gender and age. If they select a group such as Females aged 20-30, it will update visuals to only show results for females aged 20-30. This will allow the user to check for different types of patients based on the data in our database. This will also be present in the original dataset visualizations for our story telling.
@@ -80,7 +78,7 @@ Information here can be filtered relavent to potential screening questions.
 - Utilized neural network model for classification
 
 **Description of accuracy score**
-- The accuracy score of the model was 70%. Unfortunately, after examining the precision and recall, the model was good at classifyinng high A1c but poor at glassifying normal A1c.
+- The accuracy score of the model was 70%, the precision was 77%, and the recall was 73%. Unfortunately, after examining the confusion matrix, the model was good at classifyinng high A1c but poor at classifying normal A1c.
 - 
 ![Confusion Matrix](/Resources/Confusion_Matrix.png)
 

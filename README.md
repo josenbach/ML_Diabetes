@@ -79,7 +79,7 @@ Information here can be filtered relavent to potential screening questions.
 
 **Description of accuracy score**
 - The accuracy score of the model was 70%, the precision was 77%, and the recall was 73%. Unfortunately, after examining the confusion matrix, the model was good at classifyinng high A1c but poor at classifying normal A1c.
-- 
+
 ![Confusion Matrix](/Resources/Confusion_Matrix.png)
 
 ## Database

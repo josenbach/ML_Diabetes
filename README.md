@@ -36,7 +36,7 @@ Information here can be filtered relavent to potential screening questions.
 - Dashboard contains multiple tabs to show different visualizations including bar charts, density charts, pie charts, etc. related to  race, age, gender, as well as other items such as most popular medicines, and the patient's status. The dashboard may also include the original dataset and visualizations similar to the ones based on our data set for the intent of story telling.
 
 **Interactive Piece**
-- A user may be able to select particular attributes such as focusing on gender, or even multiple like gender and age. If they select a group such as Females aged 20-30, it will update visuals to only show results for females aged 20-30. This will allow the user to check for different types of patients based on the data in our database. This will also be present in the original dataset visualizations for our story telling.
+- A user may be able to select particular attributes such as focusing on gender, or even multiple like gender and age. If they select a group such as Females aged 20-30, it will update visuals to only show results for females aged 40-50. This will allow the user to check for different types of patients based on the data in our database. This will also be present in the original dataset visualizations for our story telling.
 
 ## Machine Learning Analysis
 **Description of preliminary data preprocessing**

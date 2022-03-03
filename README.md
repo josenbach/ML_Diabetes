@@ -28,7 +28,7 @@ Using a machine learning classification model, can demographics, diagnoses, medi
 
 ## Dashboard
 ```Tableau``` was used to create the dashboard to display our findings. 
-- [Raw Data Storyboard](https://public.tableau.com/app/profile/minerva.magana/viz/JointDashboard/DiabetesRawData).
+- [Raw Data Storyboard](https://public.tableau.com/app/profile/intisar3500/viz/UCIDiabetesRawData/UCIDiabetesRawData).
 - [Database Data Storyboard](https://public.tableau.com/views/DiabetesDBData/DiabetesDatabaseVisualization?:language=en-US&:display_count=n&:origin=viz_share_link).
 Information here can be filtered relavent to potential screening questions.
 
